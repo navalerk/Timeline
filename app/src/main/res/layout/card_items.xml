@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/background_light"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_posh_start_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2550 | 2548"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="4dp"/>
+    <TextView
+        android:id="@+id/tv_posh_place_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ประธานกลุ่มวิชาการพยาบาล"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="4dp"/>
+
+</LinearLayout>
